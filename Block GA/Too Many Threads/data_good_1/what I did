@@ -1,0 +1,12 @@
+target length from 10 to 40 inc by +10
+indPop from 10 to 1000 inc by *10
+blockPop from 10 to indPop inc by *10
+mutProb from .1 to .5 inc by +.05
+minCharProb from .5 to 1.0 inc by +.05
+
+Stopped 
+targetLength = 40 indPop = 10 blockPop = 10 mutProb=0.15 minCharProb = 0.9
+because tests were taking about 2 hours per trial for high values of minCharProb
+
+
+
