@@ -1,0 +1,8 @@
+README for SSAT Solver for Assignment 2
+William Richard
+
+All you need to do to run the program is call
+
+java SsatSolver <path to ssat file in the format discussed in the lab>
+
+It will then print out how long the computation took, the assignmetns that are in the final plan, and the probability that the plan has of succeding.
